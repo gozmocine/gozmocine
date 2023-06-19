@@ -455,9 +455,7 @@ hr{
         font-size: 30px;
     }
     nav .fa{
-        display: block;
-        font-size: 25px;
-        margin-right:10px;
+        display: none;
     }
     nav ul{
         background: #ff7200;
@@ -568,7 +566,9 @@ hr{
     .about-col-1 img{
         width: 100%;
     }
-    
+    nav .fa{
+
+    }
  .work{
         margin-right: 8%;
     }
