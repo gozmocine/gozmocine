@@ -449,14 +449,15 @@ nav .fa{
         
     }
     .header-text{
-        margin-top: 50%;
+        margin-top: 40%;
     }
     .header-text p{
         font-size: 30px;
+        margin-top: 20px;
+        color: #ff7200;
     }
     .header-text h1{
         font-size: 30px;
-        margin-top: 50px;
     }
     nav .fa{
         display: block;
