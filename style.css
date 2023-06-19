@@ -565,7 +565,6 @@ hr{
 /**---------Media Query for medium screen-----------**/
 
 @media only screen and (max-width: 900px){
-    }
     .about-col-1 img{
         width: 100%;
     }
