@@ -444,10 +444,6 @@ hr{
     #nav-bar{
         width: 100%;
         height: 70vh;
-        
-    }
-    nav .fa{
-    display: none;
 }
     .header-text{
         margin-top: 40px;
@@ -573,6 +569,7 @@ hr{
     .about-col-1 img{
         width: 100%;
     }
+    
  .work{
         margin-right: 8%;
     }
