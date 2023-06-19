@@ -439,20 +439,29 @@ hr{
 }
 
 /*-----------CSS for small screen----------*/
-
+nav .fa{
+    display: none;
+}
 @media only screen and (max-width: 600px){
     #nav-bar{
         width: 100%;
         height: 70vh;
-}
+        
+    }
     .header-text{
-        margin-top: 40px;
+        margin-top: 50%;
     }
     .header-text p{
         font-size: 30px;
     }
     .header-text h1{
         font-size: 30px;
+        margin-top: 50px;
+    }
+    nav .fa{
+        display: block;
+        font-size: 25px;
+        margin-right:10px;
     }
     nav ul{
         background: #ff7200;
@@ -483,10 +492,13 @@ hr{
         margin: 30px 0;
     }
     .about-col-1 img{
-        width: 100%;
+        width: 200px;
     }
     .sub-title{
     font-size: 30px;
+    }
+    .about-col-2 p{
+        font-size: 14px;
     }
     .about-links{
         margin-right: 30px;
@@ -556,50 +568,6 @@ hr{
     }
 
 }
-
-/**---------Media Query for medium screen-----------**/
-nav .fa{
-    display: none;
-}
-
-@media only screen and (min-width: 900px){
-    .about-col-1 img{
-        width: 100%;
-    }
- .work{
-        margin-right: 8%;
-    }
-    .sub-title{
-        text-align: center;
-
-    }
-    .work img{
-        width: 100%;
-        height: 50vh;
-    }
-    .work-layer h3{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    .work-layer p{
-        font-size: 12px;
-    }
-    .work-layer a{
-        font-size: 15px;
-        line-height: 40px;
-        width: 40px;
-        height: 40px;
-        margin-top: 10px;
-    }
-    .work-layer{
-        padding: 0 20px;
-    }
-      .footer-submenu .subme::after {
-    width: 40%;
-    margin-left: 30%;
-    }
-}
-
 
 
 
