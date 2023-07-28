@@ -288,7 +288,7 @@ nav ul li a:hover::after{
 }
 
 .image.zoomed {
-    transform: scale(4);
+    transform: scale(2);
 }
 
 /*------------Contact---------*/
