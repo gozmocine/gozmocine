@@ -37,15 +37,16 @@
         <h1 class="sub-title">My Portfolio</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/werewolf copy 1.png">
+
+                    <img src="images/werewolf copy 1.png" alt="Images" class="image" onclick="zoomImage(this)">
                
             </div> 
             <div class="work">
-                <img src="images/ok.jpg">
+                <img src="images/ok.jpg" class="image" onclick="zoomImage(this)">
                
             </div>
              <div class="work">
-                <img src="images/vocal Brothers.png"> 
+                <img src="images/vocal Brothers.png" class="image" onclick="zoomImage(this)"> 
             </div>
         </div>
         <a href="#" class="btn">See More</a>
@@ -153,6 +154,12 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+  
+ <script>
+    function zoomImage(image) {
+    image.classList.toggle("zoomed");
+}
+</script>
 
 </body>
 </html>

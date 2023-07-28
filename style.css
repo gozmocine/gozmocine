@@ -280,6 +280,17 @@ nav ul li a:hover::after{
     background: #ff7200;
 }
 
+.image {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.image.zoomed {
+    transform: scale(4);
+}
+
 /*------------Contact---------*/
 .message{
     margin-bottom: 40px;
