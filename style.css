@@ -280,13 +280,13 @@ nav ul li a:hover::after{
     background: #ff7200;
 }
 
-.wor .image {
+/*.work .image {
     width: 200px;
     height: auto;
     cursor: pointer;
     transition: transform 0.5s;
 }
-
+*/
 .image.zoomed {
     transform: scale(2);
 }
