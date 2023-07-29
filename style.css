@@ -280,7 +280,7 @@ nav ul li a:hover::after{
     background: #ff7200;
 }
 
-.image {
+.wor .image {
     width: 200px;
     height: auto;
     cursor: pointer;
