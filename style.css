@@ -281,7 +281,7 @@ nav ul li a:hover::after{
 }
 
 .work .image {
-    width: 200px;
+    /*width: 200px;*/
     height: auto;
     cursor: pointer;
     transition: transform 0.5s;
